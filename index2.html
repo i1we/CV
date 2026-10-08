@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h3>Şəxsi Məlumatlar </h3>
+    <label for="Ad">Ad:</label>
+    <input type="text" id="Ad" name="Ad">
+    <br><br>
+
+    <label for ="Soyad">Soyad:</label>
+    <input type="text" id="Soyad" name="Soyad">
+    <br><br>
+
+    <label for = "Email">Email:</label>
+    <input type = "email" id = "Email" name = "Email">
+    <br><br>
+
+    <label for = "password">Şifrə:</label>
+    <input type = "password" id = "password" name = "password">
+    <br><br>
+
+    <label for = "number">Nömrə:</label>
+    <input type = "number" id = "number" name = "number">
+    <br><br>
+
+    <label for="sayt">Sayt:</label>
+    <input type="url" id="sayt" name="sayt">
+    <br><br>
+
+    <label for = "search">Axtarış:</label>
+    <input type = "search" id = "search" name = "search">
+    <br><br>
+
+    <label for = "age">Yaş:</label>
+    <input type = "age" id = "age " name = "age">
+    <br><br>
+
+    <label for = "date"> Tarix</label>
+    <input type = "date" id = "date" name = "date">
+    <br><br>
+
+    <label for = "time" id = "time" name = "saat" >Saat</label>
+    <input type = "time" id = "time" name = "time">
+    <br><br>
+
+    <label for = "time and date" >Tarix və Saat</label>
+    <input type = "datetime-local" id = "dataandtime" name = "dataandtime">
+    <br><br>
+
+    <label for = "month" >Ay:</label>
+    <input type = "month" id = "month" name = "month">
+    <br><br>
+
+    <label for = "week">Həftə:</label>
+    <input type = "week" id ="week" name = "week">
+    <br><br>
+
+    <label for = "color" >Rəng:</label>
+    <input type = "color" id = "color" name = "color">
+    <br><br>
+
+    <label for ="range">Aralıq:0 - 1000</label>
+    <input type = "range" id = "range" name = "range">
+    <br><br>
+
+    <label for = "file" >Fayl:</label>
+    <input type = "file" id = "file" name = "file">
+    <br><br>
+
+    <p>Cins:</p>
+    <input type = "radio" id="kisi" name = "kisi" value = "kisi">
+    <label for = "kisi">Kişi</label>
+    <input type = "radio" id="qadin" name = "qadin" value = "qadin">
+    <label for = "qadin">Qadın</label>
+    <br><br>
+
+    <p>Maraqlar:</p>
+    <input type="checkbox" id ="frontend" name = "maraqlar" value = "frontend">
+    <label for = "frondend">Frontend</label>
+    <input type = "checkbox" id = "backend" name = "maraqlar" value = "backend">
+    <label for = "backend">Backend</label>
+    <br><br>
+
+
+
+    <label for = "kurs">Kurs:</label>
+    <select id ="kurs" name = "kurs">
+        <option value = "">Seçin</option>
+        <optgroup label = "Frontend">
+          <option value = "html">HTML</option>
+          <option value = "css">CSS</option>
+          <option value = "javascript">JavaScript</option>
+    </optgroup>
+    <optgroup label ="Backend">
+        <option value="nodejs" >Node.js</option>
+    </optgroup>
+    </select>
+    <br><br>
+
+    <label for="brauzer">Brauzer:</label>
+        <input list="brauzerler" id="brauzer" name="brauzer">
+        <datalist id="brauzerler">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Edge">
+            <option value="Safari">
+            <option value="Opera">
+        </datalist>
+        <br><br>
+
+    <label for = "mesaj"  >Mesaj</label><br>
+    <textarea id = "mesaj" name="mesaj" rows = "5" cols = "40"></textarea>
+    <br><br>
+
+
+    <input type = "submit" value = "Göndər">
+    <button type = "reset">Sıfırla</button>
+    <button type ="button"> Adi düymə</button>
+
+</form>
+
+<form>  
+    <h3>Şəxsi Məlumatlar</h3>
+
+    <label for = "name" >Ad:</label>
+    <input type = "text" id = "name" name = "Ad">   
+    <br><br>
+
+    <label for ="surname" >Soyad:</label>
+    <input type ="text" id = "surname" name="surname">
+    <br><br>
+
+    <label for ="email" >Email</label>
+    <input type = "email" id = "email" name = "email">
+    <br><br>
+
+    <label for = "sifre">Şifre</label>
+    <input type = "password" id = "sifre" name = "sifre">
+    <br><br>
+
+    <label for = "tel">Telefon:</label>
+    <input type = "number" id = "tel" name = "tel">
+    <br><br>
+
+    <label for = "sayt">Sayt:</label>
+    <input type = "url" id = "sayt" name = "sayt">
+    <br><br>
+
+    <label for = "axtaris">Axtarış:</label>
+    <input type = "search" id = "axtaris" name = "axtaris">
+    <br><br>
+
+    <label for = "yas">Yaş:</label>
+    <input type = "number" id = "yas" name="yas" min="0" max="100">
+    <br><br>
+
+    <label for = "tarix">Tarix:</label>
+    <input type = "date" id = "tarix" name = "tarix">
+    <br><br>
+
+    <label for = "saat">Saat:</label>
+    <input type = "time" id = "saat" name = "saat">
+    <br><br>
+
+    <label for = "tarixvesaat">Tarix və saat:</label>
+    <input type ="datetime-local" id = "tarixvesaat" name = "tarixvesaat">
+    <br><br>
+
+    <label for = "ay">Ay:</label>
+    <input type = "month" name = "ad" id = "ad">
+    <br><br>
+
+    <label for = "hefte">Həftə:</label>
+    <input type = "week" id = "hefte" name = "hefte">
+    <br><br>
+    
+    <label for = "reng">Rəng:</label>
+    <input type = "color" id = "reng" name = "reng">
+    <br><br>
+
+    <label for = "araliq">Aralıq:1-1000</label>
+    <input type = "range" id = "araliq" name = "araliq" min ="0" max = "1000">
+    <br><br>
+
+    <label for = "fayl">Fayl:</label>
+    <input type = "file" id = "fayl" name = "fayl">
+    <br><br>
+
+    <p>Cins:</p>
+    <input type = "radio" id = "kisi" name = "cins" value = "kisi" >
+    <label for = "kisi">Kişi</label>
+    <input type="radio" id = "qadin" name = "cins" value = "qadin">
+    <label for = "qadin" >Qadın</label>
+    <br><br>
+
+    <p>Maraqlar:</p>
+    <input type = "checkbox" id = "frontend" name = "maraqlar" value = "frontend">
+    <label for = "frontend">Frontend</label>
+    <input type = "checkbox" id = "backend" name = "maraqlar" value = "backend">
+    <label for = "backend" >Backend</label>
+    <br><br>
+
+
+    <label for = "kurs">Kurs</label>
+    <select id = "kurs" name = "kurs">
+        <option value="">Seçin</option>
+        <optgroup label = "frontend">
+            <option value = "html">HTML</option>
+            <option value = "css">CSS</option>
+            <option value = "javascript">Javascript</option>
+        </optgroup>
+        <optgroup label = "backend">
+            <option value = "nodejs">Node.js</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <label for = "brauzer">Brauzer</label>
+    <input list = "brauzerler" id = "brauzer" name = "brauzer">
+    <datalist id = "brauzerler" >
+        <option value = "Chrome">
+        <option value = "Firefox">
+        <option value = "Safari">
+        </option>
+        </option>
+        </option>
+    </datalist>
+    <br><br>
+
+    <p>Mesaj:</p>
+    <textarea name="mesaj" id = "mesaj" rows = "5" cols="40" >
+</textarea>
+    <br><br>
+
+    <input type = "submit" value = "Göndər">
+    <button type = "reset" >Sifirla</button>
+    
+</form>
+    
+    <form>
+    <h3>Şəxsi Məlumatlar </h3>
+    <label for="Ad">Ad:</label>
+    <input type="text" id="Ad" name="Ad">
+    <br><br>
+
+    <label for ="Soyad">Soyad:</label>
+    <input type="text" id="Soyad" name="Soyad">
+    <br><br>
+
+    <label for = "Email">Email:</label>
+    <input type = "email" id = "Email" name = "Email">
+    <br><br>
+
+    <label for = "password">Şifrə:</label>
+    <input type = "password" id = "password" name = "password">
+    <br><br>
+
+    <label for = "number">Nömrə:</label>
+    <input type = "number" id = "number" name = "number">
+    <br><br>
+
+    <label for="sayt">Sayt:</label>
+    <input type="url" id="sayt" name="sayt">
+    <br><br>
+
+    <label for = "search">Axtarış:</label>
+    <input type = "search" id = "search" name = "search">
+    <br><br>
+
+    <label for = "age">Yaş:</label>
+    <input type = "age" id = "age " name = "age">
+    <br><br>
+
+    <label for = "date"> Tarix</label>
+    <input type = "date" id = "date" name = "date">
+    <br><br>
+
+    <label for = "time" id = "time" name = "saat" >Saat</label>
+    <input type = "time" id = "time" name = "time">
+    <br><br>
+
+    <label for = "time and date" >Tarix və Saat</label>
+    <input type = "datetime-local" id = "dataandtime" name = "dataandtime">
+    <br><br>
+
+    <label for = "month" >Ay:</label>
+    <input type = "month" id = "month" name = "month">
+    <br><br>
+
+    <label for = "week">Həftə:</label>
+    <input type = "week" id ="week" name = "week">
+    <br><br>
+
+    <label for = "color" >Rəng:</label>
+    <input type = "color" id = "color" name = "color">
+    <br><br>
+
+    <label for ="range">Aralıq:0 - 1000</label>
+    <input type = "range" id = "range" name = "range">
+    <br><br>
+
+    <label for = "file" >Fayl:</label>
+    <input type = "file" id = "file" name = "file">
+    <br><br>
+
+    <p>Cins:</p>
+    <input type = "radio" id="kisi" name = "kisi" value = "kisi">
+    <label for = "kisi">Kişi</label>
+    <input type = "radio" id="qadin" name = "qadin" value = "qadin">
+    <label for = "qadin">Qadın</label>
+    <br><br>
+
+    <p>Maraqlar:</p>
+    <input type="checkbox" id ="frontend" name = "maraqlar" value = "frontend">
+    <label for = "frondend">Frontend</label>
+    <input type = "checkbox" id = "backend" name = "maraqlar" value = "backend">
+    <label for = "backend">Backend</label>
+    <br><br>
+
+
+
+    <label for = "kurs">Kurs:</label>
+    <select id ="kurs" name = "kurs">
+        <option value = "">Seçin</option>
+        <optgroup label = "Frontend">
+          <option value = "html">HTML</option>
+          <option value = "css">CSS</option>
+          <option value = "javascript">JavaScript</option>
+    </optgroup>
+    <optgroup label ="Backend">
+        <option value="nodejs" >Node.js</option>
+    </optgroup>
+    </select>
+    <br><br>
+
+    <label for="brauzer">Brauzer:</label>
+        <input list="brauzerler" id="brauzer" name="brauzer">
+        <datalist id="brauzerler">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Edge">
+            <option value="Safari">
+            <option value="Opera">
+        </datalist>
+        <br><br>
+
+    <label for = "mesaj"  >Mesaj</label><br>
+    <textarea id = "mesaj" name="mesaj" rows = "5" cols = "40"></textarea>
+    <br><br>
+
+
+    <input type = "submit" value = "Göndər">
+    <button type = "reset">Sıfırla</button>
+    <button type ="button"> Adi düymə</button>
+
+</form>
+
+<form>  
+    <h3>Şəxsi Məlumatlar</h3>
+
+    <label for = "name" >Ad:</label>
+    <input type = "text" id = "name" name = "Ad">   
+    <br><br>
+
+    <label for ="surname" >Soyad:</label>
+    <input type ="text" id = "surname" name="surname">
+    <br><br>
+
+    <label for ="email" >Email</label>
+    <input type = "email" id = "email" name = "email">
+    <br><br>
+
+    <label for = "sifre">Şifre</label>
+    <input type = "password" id = "sifre" name = "sifre">
+    <br><br>
+
+    <label for = "tel">Telefon:</label>
+    <input type = "number" id = "tel" name = "tel">
+    <br><br>
+
+    <label for = "sayt">Sayt:</label>
+    <input type = "url" id = "sayt" name = "sayt">
+    <br><br>
+
+    <label for = "axtaris">Axtarış:</label>
+    <input type = "search" id = "axtaris" name = "axtaris">
+    <br><br>
+
+    <label for = "yas">Yaş:</label>
+    <input type = "number" id = "yas" name="yas" min="0" max="100">
+    <br><br>
+
+    <label for = "tarix">Tarix:</label>
+    <input type = "date" id = "tarix" name = "tarix">
+    <br><br>
+
+    <label for = "saat">Saat:</label>
+    <input type = "time" id = "saat" name = "saat">
+    <br><br>
+
+    <label for = "tarixvesaat">Tarix və saat:</label>
+    <input type ="datetime-local" id = "tarixvesaat" name = "tarixvesaat">
+    <br><br>
+
+    <label for = "ay">Ay:</label>
+    <input type = "month" name = "ad" id = "ad">
+    <br><br>
+
+    <label for = "hefte">Həftə:</label>
+    <input type = "week" id = "hefte" name = "hefte">
+    <br><br>
+    
+    <label for = "reng">Rəng:</label>
+    <input type = "color" id = "reng" name = "reng">
+    <br><br>
+
+    <label for = "araliq">Aralıq:1-1000</label>
+    <input type = "range" id = "araliq" name = "araliq" min ="0" max = "1000">
+    <br><br>
+
+    <label for = "fayl">Fayl:</label>
+    <input type = "file" id = "fayl" name = "fayl">
+    <br><br>
+
+    <p>Cins:</p>
+    <input type = "radio" id = "kisi" name = "cins" value = "kisi" >
+    <label for = "kisi">Kişi</label>
+    <input type="radio" id = "qadin" name = "cins" value = "qadin">
+    <label for = "qadin" >Qadın</label>
+    <br><br>
+
+    <p>Maraqlar:</p>
+    <input type = "checkbox" id = "frontend" name = "maraqlar" value = "frontend">
+    <label for = "frontend">Frontend</label>
+    <input type = "checkbox" id = "backend" name = "maraqlar" value = "backend">
+    <label for = "backend" >Backend</label>
+    <br><br>
+
+
+    <label for = "kurs">Kurs</label>
+    <select id = "kurs" name = "kurs">
+        <option value="">Seçin</option>
+        <optgroup label = "frontend">
+            <option value = "html">HTML</option>
+            <option value = "css">CSS</option>
+            <option value = "javascript">Javascript</option>
+        </optgroup>
+        <optgroup label = "backend">
+            <option value = "nodejs">Node.js</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <label for = "brauzer">Brauzer</label>
+    <input list = "brauzerler" id = "brauzer" name = "brauzer">
+    <datalist id = "brauzerler" >
+        <option value = "Chrome">
+        <option value = "Firefox">
+        <option value = "Safari">
+        </option>
+        </option>
+        </option>
+    </datalist>
+    <br><br>
+
+    <p>Mesaj:</p>
+    <textarea name="mesaj" id = "mesaj" rows = "5" cols="40" >
+</textarea>
+    <br><br>
+
+    <input type = "submit" value = "Göndər">
+    <button type = "reset" >Sifirla</button>
+    
+</form>
+    
+    <form>
+    <h3>Şəxsi Məlumatlar </h3>
+    <label for="Ad">Ad:</label>
+    <input type="text" id="Ad" name="Ad">
+    <br><br>
+
+    <label for ="Soyad">Soyad:</label>
+    <input type="text" id="Soyad" name="Soyad">
+    <br><br>
+
+    <label for = "Email">Email:</label>
+    <input type = "email" id = "Email" name = "Email">
+    <br><br>
+
+    <label for = "password">Şifrə:</label>
+    <input type = "password" id = "password" name = "password">
+    <br><br>
+
+    <label for = "number">Nömrə:</label>
+    <input type = "number" id = "number" name = "number">
+    <br><br>
+
+    <label for="sayt">Sayt:</label>
+    <input type="url" id="sayt" name="sayt">
+    <br><br>
+
+    <label for = "search">Axtarış:</label>
+    <input type = "search" id = "search" name = "search">
+    <br><br>
+
+    <label for = "age">Yaş:</label>
+    <input type = "age" id = "age " name = "age">
+    <br><br>
+
+    <label for = "date"> Tarix</label>
+    <input type = "date" id = "date" name = "date">
+    <br><br>
+
+    <label for = "time" id = "time" name = "saat" >Saat</label>
+    <input type = "time" id = "time" name = "time">
+    <br><br>
+
+    <label for = "time and date" >Tarix və Saat</label>
+    <input type = "datetime-local" id = "dataandtime" name = "dataandtime">
+    <br><br>
+
+    <label for = "month" >Ay:</label>
+    <input type = "month" id = "month" name = "month">
+    <br><br>
+
+    <label for = "week">Həftə:</label>
+    <input type = "week" id ="week" name = "week">
+    <br><br>
+
+    <label for = "color" >Rəng:</label>
+    <input type = "color" id = "color" name = "color">
+    <br><br>
+
+    <label for ="range">Aralıq:0 - 1000</label>
+    <input type = "range" id = "range" name = "range">
+    <br><br>
+
+    <label for = "file" >Fayl:</label>
+    <input type = "file" id = "file" name = "file">
+    <br><br>
+
+    <p>Cins:</p>
+    <input type = "radio" id="kisi" name = "kisi" value = "kisi">
+    <label for = "kisi">Kişi</label>
+    <input type = "radio" id="qadin" name = "qadin" value = "qadin">
+    <label for = "qadin">Qadın</label>
+    <br><br>
+
+    <p>Maraqlar:</p>
+    <input type="checkbox" id ="frontend" name = "maraqlar" value = "frontend">
+    <label for = "frondend">Frontend</label>
+    <input type = "checkbox" id = "backend" name = "maraqlar" value = "backend">
+    <label for = "backend">Backend</label>
+    <br><br>
+
+
+
+    <label for = "kurs">Kurs:</label>
+    <select id ="kurs" name = "kurs">
+        <option value = "">Seçin</option>
+        <optgroup label = "Frontend">
+          <option value = "html">HTML</option>
+          <option value = "css">CSS</option>
+          <option value = "javascript">JavaScript</option>
+    </optgroup>
+    <optgroup label ="Backend">
+        <option value="nodejs" >Node.js</option>
+    </optgroup>
+    </select>
+    <br><br>
+
+    <label for="brauzer">Brauzer:</label>
+        <input list="brauzerler" id="brauzer" name="brauzer">
+        <datalist id="brauzerler">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Edge">
+            <option value="Safari">
+            <option value="Opera">
+        </datalist>
+        <br><br>
+
+    <label for = "mesaj"  >Mesaj</label><br>
+    <textarea id = "mesaj" name="mesaj" rows = "5" cols = "40"></textarea>
+    <br><br>
+
+
+    <input type = "submit" value = "Göndər">
+    <button type = "reset">Sıfırla</button>
+    <button type ="button"> Adi düymə</button>
+
+</form>
+
+<form>  
+    <h3>Şəxsi Məlumatlar</h3>
+
+    <label for = "name" >Ad:</label>
+    <input type = "text" id = "name" name = "Ad">   
+    <br><br>
+
+    <label for ="surname" >Soyad:</label>
+    <input type ="text" id = "surname" name="surname">
+    <br><br>
+
+    <label for ="email" >Email</label>
+    <input type = "email" id = "email" name = "email">
+    <br><br>
+
+    <label for = "sifre">Şifre</label>
+    <input type = "password" id = "sifre" name = "sifre">
+    <br><br>
+
+    <label for = "tel">Telefon:</label>
+    <input type = "number" id = "tel" name = "tel">
+    <br><br>
+
+    <label for = "sayt">Sayt:</label>
+    <input type = "url" id = "sayt" name = "sayt">
+    <br><br>
+
+    <label for = "axtaris">Axtarış:</label>
+    <input type = "search" id = "axtaris" name = "axtaris">
+    <br><br>
+
+    <label for = "yas">Yaş:</label>
+    <input type = "number" id = "yas" name="yas" min="0" max="100">
+    <br><br>
+
+    <label for = "tarix">Tarix:</label>
+    <input type = "date" id = "tarix" name = "tarix">
+    <br><br>
+
+    <label for = "saat">Saat:</label>
+    <input type = "time" id = "saat" name = "saat">
+    <br><br>
+
+    <label for = "tarixvesaat">Tarix və saat:</label>
+    <input type ="datetime-local" id = "tarixvesaat" name = "tarixvesaat">
+    <br><br>
+
+    <label for = "ay">Ay:</label>
+    <input type = "month" name = "ad" id = "ad">
+    <br><br>
+
+    <label for = "hefte">Həftə:</label>
+    <input type = "week" id = "hefte" name = "hefte">
+    <br><br>
+    
+    <label for = "reng">Rəng:</label>
+    <input type = "color" id = "reng" name = "reng">
+    <br><br>
+
+    <label for = "araliq">Aralıq:1-1000</label>
+    <input type = "range" id = "araliq" name = "araliq" min ="0" max = "1000">
+    <br><br>
+
+    <label for = "fayl">Fayl:</label>
+    <input type = "file" id = "fayl" name = "fayl">
+    <br><br>
+
+    <p>Cins:</p>
+    <input type = "radio" id = "kisi" name = "cins" value = "kisi" >
+    <label for = "kisi">Kişi</label>
+    <input type="radio" id = "qadin" name = "cins" value = "qadin">
+    <label for = "qadin" >Qadın</label>
+    <br><br>
+
+    <p>Maraqlar:</p>
+    <input type = "checkbox" id = "frontend" name = "maraqlar" value = "frontend">
+    <label for = "frontend">Frontend</label>
+    <input type = "checkbox" id = "backend" name = "maraqlar" value = "backend">
+    <label for = "backend" >Backend</label>
+    <br><br>
+
+
+    <label for = "kurs">Kurs</label>
+    <select id = "kurs" name = "kurs">
+        <option value="">Seçin</option>
+        <optgroup label = "frontend">
+            <option value = "html">HTML</option>
+            <option value = "css">CSS</option>
+            <option value = "javascript">Javascript</option>
+        </optgroup>
+        <optgroup label = "backend">
+            <option value = "nodejs">Node.js</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <label for = "brauzer">Brauzer</label>
+    <input list = "brauzerler" id = "brauzer" name = "brauzer">
+    <datalist id = "brauzerler" >
+        <option value = "Chrome">
+        <option value = "Firefox">
+        <option value = "Safari">
+        </option>
+        </option>
+        </option>
+    </datalist>
+    <br><br>
+
+    <p>Mesaj:</p>
+    <textarea name="mesaj" id = "mesaj" rows = "5" cols="40" >
+</textarea>
+    <br><br>
+
+    <input type = "submit" value = "Göndər">
+    <button type = "reset" >Sifirla</button>
+    
+</form>
+    
+    <form>
+    <h3>Şəxsi Məlumatlar </h3>
+    <label for="Ad">Ad:</label>
+    <input type="text" id="Ad" name="Ad">
+    <br><br>
+
+    <label for ="Soyad">Soyad:</label>
+    <input type="text" id="Soyad" name="Soyad">
+    <br><br>
+
+    <label for = "Email">Email:</label>
+    <input type = "email" id = "Email" name = "Email">
+    <br><br>
+
+    <label for = "password">Şifrə:</label>
+    <input type = "password" id = "password" name = "password">
+    <br><br>
+
+    <label for = "number">Nömrə:</label>
+    <input type = "number" id = "number" name = "number">
+    <br><br>
+
+    <label for="sayt">Sayt:</label>
+    <input type="url" id="sayt" name="sayt">
+    <br><br>
+
+    <label for = "search">Axtarış:</label>
+    <input type = "search" id = "search" name = "search">
+    <br><br>
+
+    <label for = "age">Yaş:</label>
+    <input type = "age" id = "age " name = "age">
+    <br><br>
+
+    <label for = "date"> Tarix</label>
+    <input type = "date" id = "date" name = "date">
+    <br><br>
+
+    <label for = "time" id = "time" name = "saat" >Saat</label>
+    <input type = "time" id = "time" name = "time">
+    <br><br>
+
+    <label for = "time and date" >Tarix və Saat</label>
+    <input type = "datetime-local" id = "dataandtime" name = "dataandtime">
+    <br><br>
+
+    <label for = "month" >Ay:</label>
+    <input type = "month" id = "month" name = "month">
+    <br><br>
+
+    <label for = "week">Həftə:</label>
+    <input type = "week" id ="week" name = "week">
+    <br><br>
+
+    <label for = "color" >Rəng:</label>
+    <input type = "color" id = "color" name = "color">
+    <br><br>
+
+    <label for ="range">Aralıq:0 - 1000</label>
+    <input type = "range" id = "range" name = "range">
+    <br><br>
+
+    <label for = "file" >Fayl:</label>
+    <input type = "file" id = "file" name = "file">
+    <br><br>
+
+    <p>Cins:</p>
+    <input type = "radio" id="kisi" name = "kisi" value = "kisi">
+    <label for = "kisi">Kişi</label>
+    <input type = "radio" id="qadin" name = "qadin" value = "qadin">
+    <label for = "qadin">Qadın</label>
+    <br><br>
+
+    <p>Maraqlar:</p>
+    <input type="checkbox" id ="frontend" name = "maraqlar" value = "frontend">
+    <label for = "frondend">Frontend</label>
+    <input type = "checkbox" id = "backend" name = "maraqlar" value = "backend">
+    <label for = "backend">Backend</label>
+    <br><br>
+
+
+
+    <label for = "kurs">Kurs:</label>
+    <select id ="kurs" name = "kurs">
+        <option value = "">Seçin</option>
+        <optgroup label = "Frontend">
+          <option value = "html">HTML</option>
+          <option value = "css">CSS</option>
+          <option value = "javascript">JavaScript</option>
+    </optgroup>
+    <optgroup label ="Backend">
+        <option value="nodejs" >Node.js</option>
+    </optgroup>
+    </select>
+    <br><br>
+
+    <label for="brauzer">Brauzer:</label>
+        <input list="brauzerler" id="brauzer" name="brauzer">
+        <datalist id="brauzerler">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Edge">
+            <option value="Safari">
+            <option value="Opera">
+        </datalist>
+        <br><br>
+
+    <label for = "mesaj"  >Mesaj</label><br>
+    <textarea id = "mesaj" name="mesaj" rows = "5" cols = "40"></textarea>
+    <br><br>
+
+
+    <input type = "submit" value = "Göndər">
+    <button type = "reset">Sıfırla</button>
+    <button type ="button"> Adi düymə</button>
+
+</form>
+
+<form>  
+    <h3>Şəxsi Məlumatlar</h3>
+
+    <label for = "name" >Ad:</label>
+    <input type = "text" id = "name" name = "Ad">   
+    <br><br>
+
+    <label for ="surname" >Soyad:</label>
+    <input type ="text" id = "surname" name="surname">
+    <br><br>
+
+    <label for ="email" >Email</label>
+    <input type = "email" id = "email" name = "email">
+    <br><br>
+
+    <label for = "sifre">Şifre</label>
+    <input type = "password" id = "sifre" name = "sifre">
+    <br><br>
+
+    <label for = "tel">Telefon:</label>
+    <input type = "number" id = "tel" name = "tel">
+    <br><br>
+
+    <label for = "sayt">Sayt:</label>
+    <input type = "url" id = "sayt" name = "sayt">
+    <br><br>
+
+    <label for = "axtaris">Axtarış:</label>
+    <input type = "search" id = "axtaris" name = "axtaris">
+    <br><br>
+
+    <label for = "yas">Yaş:</label>
+    <input type = "number" id = "yas" name="yas" min="0" max="100">
+    <br><br>
+
+    <label for = "tarix">Tarix:</label>
+    <input type = "date" id = "tarix" name = "tarix">
+    <br><br>
+
+    <label for = "saat">Saat:</label>
+    <input type = "time" id = "saat" name = "saat">
+    <br><br>
+
+    <label for = "tarixvesaat">Tarix və saat:</label>
+    <input type ="datetime-local" id = "tarixvesaat" name = "tarixvesaat">
+    <br><br>
+
+    <label for = "ay">Ay:</label>
+    <input type = "month" name = "ad" id = "ad">
+    <br><br>
+
+    <label for = "hefte">Həftə:</label>
+    <input type = "week" id = "hefte" name = "hefte">
+    <br><br>
+    
+    <label for = "reng">Rəng:</label>
+    <input type = "color" id = "reng" name = "reng">
+    <br><br>
+
+    <label for = "araliq">Aralıq:1-1000</label>
+    <input type = "range" id = "araliq" name = "araliq" min ="0" max = "1000">
+    <br><br>
+
+    <label for = "fayl">Fayl:</label>
+    <input type = "file" id = "fayl" name = "fayl">
+    <br><br>
+
+    <p>Cins:</p>
+    <input type = "radio" id = "kisi" name = "cins" value = "kisi" >
+    <label for = "kisi">Kişi</label>
+    <input type="radio" id = "qadin" name = "cins" value = "qadin">
+    <label for = "qadin" >Qadın</label>
+    <br><br>
+
+    <p>Maraqlar:</p>
+    <input type = "checkbox" id = "frontend" name = "maraqlar" value = "frontend">
+    <label for = "frontend">Frontend</label>
+    <input type = "checkbox" id = "backend" name = "maraqlar" value = "backend">
+    <label for = "backend" >Backend</label>
+    <br><br>
+
+
+    <label for = "kurs">Kurs</label>
+    <select id = "kurs" name = "kurs">
+        <option value="">Seçin</option>
+        <optgroup label = "frontend">
+            <option value = "html">HTML</option>
+            <option value = "css">CSS</option>
+            <option value = "javascript">Javascript</option>
+        </optgroup>
+        <optgroup label = "backend">
+            <option value = "nodejs">Node.js</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <label for = "brauzer">Brauzer</label>
+    <input list = "brauzerler" id = "brauzer" name = "brauzer">
+    <datalist id = "brauzerler" >
+        <option value = "Chrome">
+        <option value = "Firefox">
+        <option value = "Safari">
+        </option>
+        </option>
+        </option>
+    </datalist>
+    <br><br>
+
+    <p>Mesaj:</p>
+    <textarea name="mesaj" id = "mesaj" rows = "5" cols="40" >
+</textarea>
+    <br><br>
+
+    <input type = "submit" value = "Göndər">
+    <button type = "reset" >Sifirla</button>
+    
+</form>
+    
+    <form>
+    <h3>Şəxsi Məlumatlar </h3>
+    <label for="Ad">Ad:</label>
+    <input type="text" id="Ad" name="Ad">
+    <br><br>
+
+    <label for ="Soyad">Soyad:</label>
+    <input type="text" id="Soyad" name="Soyad">
+    <br><br>
+
+    <label for = "Email">Email:</label>
+    <input type = "email" id = "Email" name = "Email">
+    <br><br>
+
+    <label for = "password">Şifrə:</label>
+    <input type = "password" id = "password" name = "password">
+    <br><br>
+
+    <label for = "number">Nömrə:</label>
+    <input type = "number" id = "number" name = "number">
+    <br><br>
+
+    <label for="sayt">Sayt:</label>
+    <input type="url" id="sayt" name="sayt">
+    <br><br>
+
+    <label for = "search">Axtarış:</label>
+    <input type = "search" id = "search" name = "search">
+    <br><br>
+
+    <label for = "age">Yaş:</label>
+    <input type = "age" id = "age " name = "age">
+    <br><br>
+
+    <label for = "date"> Tarix</label>
+    <input type = "date" id = "date" name = "date">
+    <br><br>
+
+    <label for = "time" id = "time" name = "saat" >Saat</label>
+    <input type = "time" id = "time" name = "time">
+    <br><br>
+
+    <label for = "time and date" >Tarix və Saat</label>
+    <input type = "datetime-local" id = "dataandtime" name = "dataandtime">
+    <br><br>
+
+    <label for = "month" >Ay:</label>
+    <input type = "month" id = "month" name = "month">
+    <br><br>
+
+    <label for = "week">Həftə:</label>
+    <input type = "week" id ="week" name = "week">
+    <br><br>
+
+    <label for = "color" >Rəng:</label>
+    <input type = "color" id = "color" name = "color">
+    <br><br>
+
+    <label for ="range">Aralıq:0 - 1000</label>
+    <input type = "range" id = "range" name = "range">
+    <br><br>
+
+    <label for = "file" >Fayl:</label>
+    <input type = "file" id = "file" name = "file">
+    <br><br>
+
+    <p>Cins:</p>
+    <input type = "radio" id="kisi" name = "kisi" value = "kisi">
+    <label for = "kisi">Kişi</label>
+    <input type = "radio" id="qadin" name = "qadin" value = "qadin">
+    <label for = "qadin">Qadın</label>
+    <br><br>
+
+    <p>Maraqlar:</p>
+    <input type="checkbox" id ="frontend" name = "maraqlar" value = "frontend">
+    <label for = "frondend">Frontend</label>
+    <input type = "checkbox" id = "backend" name = "maraqlar" value = "backend">
+    <label for = "backend">Backend</label>
+    <br><br>
+
+
+
+    <label for = "kurs">Kurs:</label>
+    <select id ="kurs" name = "kurs">
+        <option value = "">Seçin</option>
+        <optgroup label = "Frontend">
+          <option value = "html">HTML</option>
+          <option value = "css">CSS</option>
+          <option value = "javascript">JavaScript</option>
+    </optgroup>
+    <optgroup label ="Backend">
+        <option value="nodejs" >Node.js</option>
+    </optgroup>
+    </select>
+    <br><br>
+
+    <label for="brauzer">Brauzer:</label>
+        <input list="brauzerler" id="brauzer" name="brauzer">
+        <datalist id="brauzerler">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Edge">
+            <option value="Safari">
+            <option value="Opera">
+        </datalist>
+        <br><br>
+
+    <label for = "mesaj"  >Mesaj</label><br>
+    <textarea id = "mesaj" name="mesaj" rows = "5" cols = "40"></textarea>
+    <br><br>
+
+
+    <input type = "submit" value = "Göndər">
+    <button type = "reset">Sıfırla</button>
+    <button type ="button"> Adi düymə</button>
+
+</form>
+
+<form>  
+    <h3>Şəxsi Məlumatlar</h3>
+
+    <label for = "name" >Ad:</label>
+    <input type = "text" id = "name" name = "Ad">   
+    <br><br>
+
+    <label for ="surname" >Soyad:</label>
+    <input type ="text" id = "surname" name="surname">
+    <br><br>
+
+    <label for ="email" >Email</label>
+    <input type = "email" id = "email" name = "email">
+    <br><br>
+
+    <label for = "sifre">Şifre</label>
+    <input type = "password" id = "sifre" name = "sifre">
+    <br><br>
+
+    <label for = "tel">Telefon:</label>
+    <input type = "number" id = "tel" name = "tel">
+    <br><br>
+
+    <label for = "sayt">Sayt:</label>
+    <input type = "url" id = "sayt" name = "sayt">
+    <br><br>
+
+    <label for = "axtaris">Axtarış:</label>
+    <input type = "search" id = "axtaris" name = "axtaris">
+    <br><br>
+
+    <label for = "yas">Yaş:</label>
+    <input type = "number" id = "yas" name="yas" min="0" max="100">
+    <br><br>
+
+    <label for = "tarix">Tarix:</label>
+    <input type = "date" id = "tarix" name = "tarix">
+    <br><br>
+
+    <label for = "saat">Saat:</label>
+    <input type = "time" id = "saat" name = "saat">
+    <br><br>
+
+    <label for = "tarixvesaat">Tarix və saat:</label>
+    <input type ="datetime-local" id = "tarixvesaat" name = "tarixvesaat">
+    <br><br>
+
+    <label for = "ay">Ay:</label>
+    <input type = "month" name = "ad" id = "ad">
+    <br><br>
+
+    <label for = "hefte">Həftə:</label>
+    <input type = "week" id = "hefte" name = "hefte">
+    <br><br>
+    
+    <label for = "reng">Rəng:</label>
+    <input type = "color" id = "reng" name = "reng">
+    <br><br>
+
+    <label for = "araliq">Aralıq:1-1000</label>
+    <input type = "range" id = "araliq" name = "araliq" min ="0" max = "1000">
+    <br><br>
+
+    <label for = "fayl">Fayl:</label>
+    <input type = "file" id = "fayl" name = "fayl">
+    <br><br>
+
+    <p>Cins:</p>
+    <input type = "radio" id = "kisi" name = "cins" value = "kisi" >
+    <label for = "kisi">Kişi</label>
+    <input type="radio" id = "qadin" name = "cins" value = "qadin">
+    <label for = "qadin" >Qadın</label>
+    <br><br>
+
+    <p>Maraqlar:</p>
+    <input type = "checkbox" id = "frontend" name = "maraqlar" value = "frontend">
+    <label for = "frontend">Frontend</label>
+    <input type = "checkbox" id = "backend" name = "maraqlar" value = "backend">
+    <label for = "backend" >Backend</label>
+    <br><br>
+
+
+    <label for = "kurs">Kurs</label>
+    <select id = "kurs" name = "kurs">
+        <option value="">Seçin</option>
+        <optgroup label = "frontend">
+            <option value = "html">HTML</option>
+            <option value = "css">CSS</option>
+            <option value = "javascript">Javascript</option>
+        </optgroup>
+        <optgroup label = "backend">
+            <option value = "nodejs">Node.js</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <label for = "brauzer">Brauzer</label>
+    <input list = "brauzerler" id = "brauzer" name = "brauzer">
+    <datalist id = "brauzerler" >
+        <option value = "Chrome">
+        <option value = "Firefox">
+        <option value = "Safari">
+        </option>
+        </option>
+        </option>
+    </datalist>
+    <br><br>
+
+    <p>Mesaj:</p>
+    <textarea name="mesaj" id = "mesaj" rows = "5" cols="40" >
+</textarea>
+    <br><br>
+
+    <input type = "submit" value = "Göndər">
+    <button type = "reset" >Sifirla</button>
+    
+</form>
+    
+
+
+
+
+</body>
+</html>
