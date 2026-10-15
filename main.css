@@ -6,3 +6,17 @@ h1 {
     text-align: center;
 }
 
+.email:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.bacariq{
+    
+
+}
+
+
+.phone:hover{
+    color:green;
+}
